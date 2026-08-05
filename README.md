@@ -14,26 +14,9 @@
   </p>
 </div>
 
-```console
-$ redactai-audit start
-
- 🚀 REDACTAI EGRESS AUDITOR 
-
-Initializing CA and TLS Proxy...
-✅ Diagnostic Proxy listening on http://127.0.0.1:54321
-
-Scanning for AI applications on this machine...
-Discovered 4 AI applications:
-  [1] Cursor AI (/Applications/Cursor.app/Contents/MacOS/Cursor)
-  [2] VS Code (/Applications/Visual Studio Code.app/Contents/MacOS/Electron)
-  [3] Kiro (/Applications/Kiro.app/Contents/MacOS/Kiro)
-  [4] Claude Desktop (/Applications/Claude.app/Contents/MacOS/Claude)
-
-Select an app to audit [1-4] or 'm' for manual mode: 1
-
-Selected: Cursor AI
-Monitoring for AI traffic... (Press Enter again to stop and generate report)
-```
+<div align="center">
+  <img src="assets/carbon.png" alt="RedactAI CLI Screenshot" width="700"/>
+</div>
 
 ---
 
